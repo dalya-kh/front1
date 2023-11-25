@@ -15,7 +15,7 @@ const Signup = () => {
       setIsLoading(true)
    setError(null)
   //  https://bvc-46jr.onrender.com
-   const response = await ax.post('http://localhost:4000/api/user/signup' ,{email,password} )
+   const response = await ax.post('https://back1-fgyp.vercel.app/' ,{email,password} )
  
   
  // save the user to local storage
