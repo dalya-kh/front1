@@ -16,7 +16,7 @@ const Home = () => {
     const fetchWorkouts = async () => {
       try {
         // https://bvc-46jr.onrender.com
-        let response = await ax.get("http://localhost:4000/api/workouts", {
+        let response = await ax.get("https://back1-fgyp.vercel.app/", {
           headers: {'Authorization': `Bearer ${users.token}`},
         });
         console.log(response.data)
