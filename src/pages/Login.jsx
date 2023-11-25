@@ -21,7 +21,7 @@ const navigate=useNavigate()
       setIsLoading(true)
    setError(null)
    
-   const response = await ax.post('http://localhost:4000/api/user/login' ,{email,password} )
+   const response = await ax.post('https://back1-fgyp.vercel.app/' ,{email,password} )
  
   
    navigate('/')
